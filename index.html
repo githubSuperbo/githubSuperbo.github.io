@@ -11,6 +11,30 @@
   </head>
   <body>
     <h1>Cookies!!!!</h1>
+    <h1>first attempt</h1>
+    <div id="page-content">
+      <script>
+        (function (m, t, n, w, e, b, chat, bot) {
+          (m["VWBotObject"] = e),
+            (m[e] = {}),
+            (m[e].host = "https://heron.voiceweb.eu/bm/"),
+            (m[e].ch = b),
+            (m[e].dn = chat),
+            (m[e].trigger_icon = "boticon.22.png"),
+            (m[e].texts = {}),
+            (bot = t.createElement(n)),
+            (tg = t.getElementsByTagName(n)[0]),
+            (bot.async = 1),
+            (bot.src = w),
+            tg.parentNode.insertBefore(bot, tg);
+        })(
+          window,
+          document,
+          "script",
+          "https://heron.voiceweb.eu/bm/embed/embed.js','mtnbot','web',"
+        );
+      </script>
+    </div>
   </body>
   <!-- <script src="script.js"></script> -->
 </html>
